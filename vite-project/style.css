@@ -1,0 +1,193 @@
+body {
+  display: flex;
+  background-color: rgb(242, 234, 226);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.whitebox {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.box{
+  display: flex;
+  padding: 32px;
+  width: 300px;
+  height: 386px;
+  flex-direction: column;
+}
+
+.head1{
+  margin: 0;
+  color: rgb(108, 114, 137);
+  font-family: "Montserrat";
+  src: url (fonts/Montserrat/static/Montserrat-Medium.ttf);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 15px;
+}
+
+.head2 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: rgb(28, 35, 43);
+  font-family: "Fraunces", system-ui;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 32px;
+}
+
+.description1 {
+  color: rgb(108, 114, 137);
+  font-family: "Montserrat";
+  src: url(fonts/static/Montserrat-Medium.ttf);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  margin: 0;
+  padding: 24px 0 29px 0;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  width: 32px;
+}
+
+.now {
+  color: rgb(61, 129, 104);
+  font-family: "Fraunces", system-ui;
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 32px;
+  padding-right: 19px;
+}
+
+.before {
+  color: rgb(108, 114, 137);
+  margin: 0;
+  font-family: "Fraunces", system-ui;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 23px;
+  text-decoration: line-through;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 15px 62px;
+  width: 236px;
+  height: 48px;
+  font-family: "Montserrat";
+  src: url(fonts/static/Montserrat-Medium.ttf);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: rgb(61, 129, 104);
+  border-radius: 8px;
+  border: 0;
+  color: white;
+}
+
+#img2 {display: flex;
+  padding-right: 10px;
+}
+
+.rightbox {
+  display: flex;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  padding: 15px;
+  flex-direction: column;
+  width: 356px;
+  height: 173px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.head3 {
+  display: flex;
+  color: rgb(28, 35, 43);
+  font-family: "Fraunces", system-ui;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 32px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.head4 {
+  color: rgb(28, 35, 43);
+  font-family: "Fraunces", system-ui;
+  font-size: 14px;
+  font-weight: 900;
+  padding-top: 20px;
+  font-style: normal;
+  line-height: 20px;
+
+}
+
+.price1 {
+  color: rgb(28, 35, 43);
+  font-family: "Fraunces", system-ui;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 32px;
+  padding-left:20px;
+  padding-top: 20px;
+}
+
+.tickets {
+  color: rgb(28, 35, 43);
+  font-family: "Fraunces", system-ui;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 32px;
+  padding-left:20px;
+  padding-top: 20px;
+}
+  
+.price2 {
+  color: rgb(28, 35, 43);
+  font-family: "Fraunces", system-ui;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 32px;
+  padding-left:20px;
+  padding-top: 20px;
+}
+
+.price3 {
+  color: rgb(61, 129, 104);
+  font-family: "Fraunces", system-ui;
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 32px;
+  padding-right: 19px;
+  text-align: right;
+  padding-top: 18px;
+}
