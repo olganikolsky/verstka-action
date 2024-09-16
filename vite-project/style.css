@@ -4,6 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 .whitebox {
@@ -110,7 +111,6 @@ body {
   position: absolute;
   right: 18px;
   top: 18px;
-  left: 46px;
   padding: 15px;
   flex-direction: column;
   width: 356px;
@@ -191,4 +191,46 @@ body {
   padding-right: 19px;
   text-align: right;
   padding-top: 18px;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+}
+.circle1 {
+  margin-bottom: 15px;
+  background-color: rgb(61, 129, 104);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+.circle1:focus {
+  border-color: #646cff;
+  outline: 4px auto
+}
+
+.circle2 {
+  margin-bottom: 15px;
+  margin-left: 14px;
+  background-color: rgba(158, 148, 148, 0.882);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+.circle2:focus {
+  border-color: #646cff;
+  outline: 4px auto
+}
+
+.circle3 {
+  margin-bottom: 15px;
+  margin-left: 14px;
+  background-color: rgb(28, 35, 43);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+.circle3:focus {
+  border-color: #646cff;
+  outline: 4px auto
 }
