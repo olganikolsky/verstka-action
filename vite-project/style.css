@@ -206,7 +206,7 @@ body {
 }
 .circle1:focus {
   border-color: #646cff;
-  outline: 4px auto
+  outline: -webkit-focus-ring-color auto 1px;
 }
 
 .circle2 {
